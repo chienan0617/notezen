@@ -104728,8 +104728,10 @@ this.mn()},
 rU(a){return this.apv(a)},
 apv(a){var s=0,r=A.C(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c
 var $async$rU=A.D(function(b,a0){if(b===1){o.push(a0)
-s=p}for(;;)switch(s){case 0:if(a<=0){s=1
-break}p=4
+s=p}for(;;)switch(s){case 0:a=a
+if(a<=0){s=1
+break}if(a>60)a=60
+p=4
 $.e3()
 h=$.ay().b
 h===$&&A.a()
@@ -104738,7 +104740,7 @@ l=n.YB()
 h=$.j5()
 g=t.N
 f=t.K
-h.lN("POST "+a+" secs for "+A.o(l),A.a8(["studySeconds",a,"date",l],g,f),"Pomodoro Study Time",B.dQ)
+h.lN("POST "+A.o(a)+" secs for "+A.o(l),A.a8(["studySeconds",a,"date",l],g,f),"Pomodoro Study Time",B.dQ)
 e=A.a8(["Content-Type","application/json"],g,g)
 s=7
 return A.m(A.v0(m,B.ap.kM(A.a8(["studySeconds",a,"date",l],g,f),null),e),$async$rU)
