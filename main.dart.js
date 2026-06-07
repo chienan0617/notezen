@@ -107733,8 +107733,8 @@ i=t.a.a(B.at.l0(0,A.vp(A.vf(c.e)).en(0,c.w),null))
 d.ib("Study time synced successfully",i,"Pomodoro Study Time",B.bI)
 a0=A.a7C(J.b7(i,"todayStudySeconds"))
 h=a0==null?null:a0
-if(h!=null)J.iG(e.mT$,k,h)
-g=A.aQv(i)
+if(h!=null){J.iG(e.mT$,k,h)
+e.a0()}g=A.aQv(i)
 s=11
 return A.o($.fG().re(g),$async$pH)
 case 11:s=9
