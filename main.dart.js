@@ -107297,17 +107297,17 @@ case 2:q.a=b
 q.lx()
 return A.y(null,r)}})
 return A.z($async$cZ,r)},
-lx(){var s=this,r=s.a
-r===$&&A.a()
-if(!r.r)A.S(A.ds("Box has already been closed."))
-r=r.e
-r===$&&A.a()
-r=r.mk()
-r=A.a2(r,A.k(r).h("q.E"))
-s.b=r
-s.atj()
-s.Gv()
-s.a0()},
+lx(){var s,r=this,q=r.a
+q===$&&A.a()
+if(!q.r)A.S(A.ds("Box has already been closed."))
+q=q.e
+q===$&&A.a()
+q=q.mk()
+q=A.a2(q,A.k(q).h("q.E"))
+r.b=q
+r.atj()
+r.a0()
+try{r.Gv()}catch(s){}},
 aDZ(a){var s=this.b,r=A.X(s).h("ak<1>")
 s=A.a2(new A.ak(s,new A.amy(a),r),r.h("q.E"))
 return s},
