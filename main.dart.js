@@ -115551,9 +115551,10 @@ return A.p(p.eC("service_meta_"+o.w,t.z),$async$bV)
 case 2:q.b=b
 return A.w(null,r)}})
 return A.x($async$bV,r)},
-k8(){var s=0,r=A.y(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5
-var $async$k8=A.z(function(b6,b7){if(b6===1){p.push(b7)
+k8(){var s=0,r=A.y(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6
+var $async$k8=A.z(function(b7,b8){if(b7===1){p.push(b8)
 s=q}for(;;)switch(s){case 0:b2=Date.now()
+b3=!1
 q=3
 a7=o.b
 a7===$&&A.a()
@@ -115562,10 +115563,10 @@ a9=a8.b
 a9===$&&A.a()
 s=6
 return A.p(o.Bw(A.dH(a7.w2(0,a9.w+"_lastSyncedAt",0)),b2),$async$k8)
-case 6:n=b7
+case 6:n=b8
 s=7
 return A.p(o.Bu(A.dH(o.b.w2(0,a8.b.w+"_lastSyncedAt",0)),b2),$async$k8)
-case 7:m=b7
+case 7:m=b8
 s=8
 return A.p($.dN().H8(m),$async$k8)
 case 8:a8=t.N
@@ -115591,13 +115592,13 @@ s=J.cm(i)!==0?14:15
 break
 case 14:s=16
 return A.p(o.A6(i,!0),$async$k8)
-case 16:h=b7
+case 16:h=b8
 s=J.b_(h,"rejected")!=null&&J.hU(t.j.a(J.b_(h,"rejected")))?17:18
 break
 case 17:g=A.dK(t.j.a(J.b_(h,"rejected")),!0,a8)
 s=19
 return A.p(o.AR(g),$async$k8)
-case 19:f=b7
+case 19:f=b8
 a7=J.bt(f)
 case 20:if(!a7.B()){s=21
 break}e=a7.gR(a7)
@@ -115605,18 +115606,23 @@ s=22
 return A.p(o.Aw(e),$async$k8)
 case 22:s=20
 break
-case 21:case 18:case 15:q=1
+case 21:case 18:case 15:b3=!0
+q=1
 s=5
 break
 case 3:q=2
-b3=p.pop()
-d=A.at(b3)
+b4=p.pop()
+d=A.at(b4)
 A.aUP().$1("Sync notes skipped: "+A.o(d))
 s=5
 break
 case 2:s=1
 break
-case 5:q=24
+case 5:if(b3){a7=o.b
+a7===$&&A.a()
+a8=$.am().b
+a8===$&&A.a()
+a7.bW(A.a9([a8.w+"_lastSyncedAt",b2],t.z,a7.$ti.c))}q=24
 a7=$.bc()
 a7.bK("Fetching profile data","Sync Profile Request",B.aE)
 a8=$.am().b
@@ -115624,7 +115630,7 @@ a8===$&&A.a()
 c=A.dZ("https://cas.cas617.workers.dev/simpleNote/getProfile?id="+a8.w,0,null)
 s=27
 return A.p(A.aaT(c),$async$k8)
-case 27:b=b7
+case 27:b=b8
 s=b.b===200?28:30
 break
 case 28:a8=b
@@ -115640,8 +115646,8 @@ case 29:q=1
 s=26
 break
 case 24:q=23
-b4=p.pop()
-a1=A.at(b4)
+b5=p.pop()
+a1=A.at(b5)
 A.aUP().$1("Sync profile skipped: "+A.o(a1))
 s=26
 break
@@ -115654,26 +115660,21 @@ a4=""+A.ce(a3)+"-"+B.d.bo(B.f.l(A.cw(a3)),2,"0")+"-"+B.d.bo(B.f.l(A.ee(a3)),2,"0
 a5=""+A.ce(a2)+"-"+B.d.bo(B.f.l(A.cw(a2)),2,"0")+"-"+B.d.bo(B.f.l(A.ee(a2)),2,"0")
 s=36
 return A.p(o.wd(a4,a5),$async$k8)
-case 36:o.lD$=b7
+case 36:o.lD$=b8
 q=1
 s=35
 break
 case 33:q=32
-b5=p.pop()
-a6=A.at(b5)
+b6=p.pop()
+a6=A.at(b6)
 A.aUP().$1("Sync study history skipped: "+A.o(a6))
 s=35
 break
 case 32:s=1
 break
-case 35:a7=o.b
-a7===$&&A.a()
-a8=$.am().b
-a8===$&&A.a()
-a7.bW(A.a9([a8.w+"_lastSyncedAt",b2],t.z,a7.$ti.c))
-$.bU().lf()
+case 35:$.bU().lf()
 o.T()
-$.bc().bK("Sync cycle finished","Sync Completed",B.ah)
+if(b3)$.bc().bK("Sync cycle finished","Sync Completed",B.ah)
 return A.w(null,r)
 case 1:return A.v(p.at(-1),r)}})
 return A.x($async$k8,r)}}
