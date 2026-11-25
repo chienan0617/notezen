@@ -43929,7 +43929,7 @@ return A.l(A.nc(m),$async$Ku)
 case 11:s=1
 break
 case 10:s=12
-return A.l(A.Gj(!0,null,"\u660e\u5929\u5230\u671f\uff0c\u5148\u6392\u4e00\u4e0b\u5427","deadline_alerts",m,n,o,"\u23f3 "+a.b),$async$Ku)
+return A.l(A.Gj(!0,null,"\u660e\u5929\u5230\u671f\uff0c\u5148\u6392\u4e00\u4e0b\u5427","deadline_alerts",m,n,o,a.b),$async$Ku)
 case 12:case 1:return A.w(q,r)}})
 return A.x($async$Ku,r)},
 a0s(a){var s=0,r=A.y(t.H),q,p,o,n,m
@@ -43953,7 +43953,7 @@ case 8:s=1
 break
 case 7:if(a.ch===0){s=1
 break}s=9
-return A.l(A.Gj(!0,null,"\u5df2\u7d93\u904e\u671f\u4e86\uff0c\u91cd\u65b0\u5b89\u6392\u4e00\u4e0b\u5427","deadline_alerts",n,o,p,"\u26a0\ufe0f "+a.b),$async$a0s)
+return A.l(A.Gj(!0,null,"\u5df2\u7d93\u904e\u671f\u4e86\uff0c\u91cd\u65b0\u5b89\u6392\u4e00\u4e0b\u5427","deadline_alerts",n,o,p,a.b),$async$a0s)
 case 9:case 1:return A.w(q,r)}})
 return A.x($async$a0s,r)},
 bI6:function bI6(){},
@@ -47224,7 +47224,7 @@ break}o=new A.ae(A.dL(p,0),0,!1).cg(1728e8)
 if(!o.kR(a))o=A.coT(a.cg(864e8))
 n=B.l.ad(a.bS(new A.ae(A.dL(p,0),0,!1)).a,864e8)
 s=6
-return A.l(A.Gj(!1,null,n<1?"\u6628\u5929\u4e4b\u5f8c\u5c31\u6c92\u5c08\u6ce8\u4e86\uff0c\u4f86\u500b\u756a\u8304\u9418\u5427":"\u4f60\u5df2\u7d93 "+n+" \u5929\u6c92\u6709\u5c08\u6ce8\u4e86\uff0c\u4f86\u500b\u756a\u8304\u9418\u5427","task_reminders",999002,null,o,"\ud83d\udcd6 \u8a72\u5c08\u6ce8\u4e86"),$async$a94)
+return A.l(A.Gj(!1,null,n<1?"\u6628\u5929\u4e4b\u5f8c\u5c31\u6c92\u5c08\u6ce8\u4e86\uff0c\u4f86\u500b\u756a\u8304\u9418\u5427":"\u4f60\u5df2\u7d93 "+n+" \u5929\u6c92\u6709\u5c08\u6ce8\u4e86\uff0c\u4f86\u500b\u756a\u8304\u9418\u5427","task_reminders",999002,null,o,"\u8a72\u5c08\u6ce8\u4e86"),$async$a94)
 case 6:case 1:return A.w(q,r)}})
 return A.x($async$a94,r)},
 coT(a){var s
@@ -134416,7 +134416,7 @@ q=f?l.w:k
 p=f&&h?B.I:k
 o=l.at
 n=o==null||o.length!==0
-m=A.hv(p,j,o,s,k,q,k,r,n,16,l.y,g,i)
+m=A.hv(p,j,o,s,k,q,k,r,n,6,l.y,g,i)
 if(!f)m=A.aMb(m,0.955)
 i=l.as
 return i!=null&&i.length!==0?A.dE(m,i,k):m}}
@@ -134613,11 +134613,12 @@ A.u5.prototype={
 L(){return"LiquidGlassVariant."+this.b}}
 A.wC.prototype={
 gaE7(){var s,r=this.d
-A:{if(B.iL===r||B.ex===r){s=22
-break A}if(B.ob===r||B.lM===r){s=16
-break A}if(B.kd===r||B.oc===r){s=24
-break A}if(B.ke===r){s=26
-break A}s=null}return s},
+A:{s=10
+if(B.iL===r||B.ex===r){s=8
+break A}if(B.ob===r||B.lM===r){s=6
+break A}if(B.kd===r||B.oc===r)break A
+if(B.ke===r)break A
+s=null}return s},
 aHJ(a){var s,r=this.z
 if(r!=null)return r.j(B.j.az(r.a,0.08,0.88))
 s=this.d
@@ -143190,7 +143191,7 @@ r=o.gaG5()
 q=B.l.az(B.j.hi(r.length/50),1,999)
 m=o.r
 p=A.dH(r,(m>=q?o.r=B.l.az(q-1,0,999):m)*50,null,A.L(r).c).jS(0,50).cH(0)
-return A.fh(B.adP,n.b.k3?A.bLk(o.a5B(s,p,r,q,!0),new A.w5(25,25,null)):o.a5B(s,p,r,q,!1),B.aQ)},
+return A.fh(B.adP,n.b.k3?A.bLk(o.a5B(s,p,r,q,!0),new A.w5(10,10,null)):o.a5B(s,p,r,q,!1),B.aQ)},
 a5B(a,b,c,d,e){var s,r,q,p,o,n=this,m=null,l=a?B.c:B.m,k=a?B.c.j(0.16):B.m.j(0.13),j=a?B.c.j(0.16):B.m.j(0.13)
 j=A.bs(A.B(m,m,B.h,m,m,new A.C(j,m,m,A.t(2),m,m,B.o),m,4,m,B.Ha,m,m,m,36),m,m,m)
 s=A.j("\u5143\u7d20\u5eab",m,m,m,m,m,A.f(m,m,l,m,m,m,m,m,m,m,m,20,m,m,B.t,m,m,!0,m,-0.4,m,m,m,m,m,m),m,m,m)
@@ -157490,7 +157491,7 @@ if(a2.r==null){j=A.bXF(a2,k)
 a2.r=j
 $.mC().rC(j,!0,"task")}$.mC().Nw(!0)
 $.bX().zz(2)
-A.a95(!1,null,a2.b,"completion_channel",0,"note_"+a2.a,"Task Completed! \ud83c\udf89")}else{a2.y=null
+A.a95(!1,null,a2.b,"completion_channel",0,"note_"+a2.a,"Task Completed!")}else{a2.y=null
 k=a2.r
 if(k!=null){$.mC().rC(-k,!0,"task_undo")
 a2.r=null}$.mC().Mo(!0)
@@ -157958,7 +157959,7 @@ $.az().x6()
 $.cT().fe(2)
 if(l>0){a0=B.j.al(l/6e4)
 d=a0===1?"":"s"
-A.a95(!1,null,"Studied for "+a0+" minute"+d,"completion_channel",0,"session_"+A.m(k),"Study Session Complete! \ud83d\udcda")}if(l<=0){s=1
+A.a95(!1,null,"Studied for "+a0+" minute"+d,"completion_channel",0,"session_"+A.m(k),"Study Session Complete!")}if(l<=0){s=1
 break}d=$.aR()
 d.b8("Saving "+A.m(l)+" ms","saveStudy",B.aH)
 p=14
@@ -158389,7 +158390,7 @@ case 14:s=7
 break
 case 13:e=k.b
 s=15
-return A.l(A.Gj(!0,null,m.b+" "+A.jR(m.d)+"\u2013"+A.jR(m.e)+"\uff0c\u63db\u505a\u9019\u500b\u4efb\u52d9","schedule_blocks",l,k.a,i,"\u23f0 "+e),$async$lA)
+return A.l(A.Gj(!0,null,m.b+" "+A.jR(m.d)+"\u2013"+A.jR(m.e)+"\uff0c\u63db\u505a\u9019\u500b\u4efb\u52d9","schedule_blocks",l,k.a,i,e),$async$lA)
 case 15:case 7:h.length===g||(0,A.Q)(h),++f
 s=6
 break
@@ -161530,7 +161531,7 @@ case 3:p=$.mC()
 m=o?-1:1
 p.rC(m,!0,o?"subtask_undo":"subtask")
 A.a0G()
-if(n&&l[k].c)A.a95(!1,null,l[k].b,"completion_channel",0,"subtask_"+a.a+"_"+b,"Subtask Completed! \u2705")
+if(n&&l[k].c)A.a95(!1,null,l[k].b,"completion_channel",0,"subtask_"+a.a+"_"+b,"Subtask Completed!")
 case 1:return A.w(q,r)}})
 return A.x($async$PG,r)}}
 A.b1i.prototype={
